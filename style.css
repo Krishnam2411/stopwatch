@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 1em 2em;
+    width: fit-content;
+    background-color: black;
+    border-radius: 10px;
+}
+.box .timer{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0.5rem;
+    color: aliceblue;
+}
+.box .buttons{
+    margin: 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+button{
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: white;
+    cursor: pointer;
+}
